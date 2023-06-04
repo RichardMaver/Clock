@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: greenyellow;
+}
+
+#clock {
+    display: inline;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    padding: 1rem;
+    background: black;
+    letter-spacing: 1vw;
+    border: solid;
+    user-select: none;
+}
+
+#reset {
+    display: block;
+    margin: auto;
+    padding: 2rem 3rem;
+    color: snow;
+    background-color: green;
+    cursor: pointer;
+    user-select: none;
+}
+
+#remove {
+    display: block;
+    margin: auto;
+    padding: 2rem 3rem;
+    color: snow;
+    background-color: red;
+    cursor: pointer;
+    user-select: none;
+}
+
+@media (max-width: 400px) {
+
+}
